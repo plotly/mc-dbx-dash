@@ -109,7 +109,7 @@ def dl_csv(rowData):
         return dash.no_update
     else:
         df = pd.DataFrame(rowData)
-        df.to_sql('mc_aggrid_demo.bronze_sensors', con=engine, index=False, method="multi", if_exists= 'append')
+        #df.to_sql('mc_aggrid_demo.bronze_sensors', con=engine, index=False, method="multi", if_exists= 'append')
         csv_string = df.to_csv(index=False, encoding="utf-8")
         csv_string = "data:text/csv;charset=utf-8," + urllib.parse.quote(csv_string)
         return csv_string
