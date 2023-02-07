@@ -1,0 +1,6 @@
+--extra-index-url=https://dash-demo.plotly.host/Docs/packages
+gunicorn==19.9.0
+dash-design-kit==1.6.7
+databricks
+sqlalchemy-databricks
+dash-ag-grid
