@@ -2,13 +2,10 @@ import dash_ag_grid as dag
 import dash_design_kit as ddk
 from theme import theme
 import dash
-from dash import Input, Output, State, html, dcc, dash_table
+from dash import Input, Output, html
 import pandas as pd
-import json
 import urllib
-
-import plotly.express as px
-from dbx_utils import df, engine
+from dbx_utils import df
 
 app = dash.Dash(__name__)
 server = app.server
