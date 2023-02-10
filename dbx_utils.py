@@ -16,7 +16,7 @@ CATALOG = "main"
 SCHEMA = "mc_aggrid_demo"
 
 engine = create_engine(
-    f"databricks+thrift://token:{ACCESS_TOKEN}@{SERVER_HOSTNAME}?http_path={HTTP_PATH}&catalog={CATALOG}&schema={SCHEMA}"
+    f"databricks://token:{ACCESS_TOKEN}@{SERVER_HOSTNAME}?http_path={HTTP_PATH}&catalog={CATALOG}&schema={SCHEMA}"
 )
 
 session = Session(bind=engine)
