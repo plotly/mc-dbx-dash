@@ -6,7 +6,7 @@ Sachin Seth (Solutions Architect, Lakeside Analytics)
 
 ## Overview
 
-***You must use the dev build if you want to try out SQL Alchemy before its released officially as a part of Databricks SQL connector for python- use: 
+***You must use the dev build if you want to try out SQL Alchemy before its released officially as a part of Databricks SQL connector for python:
 
 pip install databricks-sql-connector==2.2.dev1675985183
 
